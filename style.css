@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'AbyssinicaSIL-Regular';
+    src: url("assests/fonts/AbyssinicaSIL-Regular.ttf");
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'SourceSanspro';
+    src: url("assests/fonts/SourceSansPro-BlackItalic.ttf");
+    font-weight: 300;
+}
+
