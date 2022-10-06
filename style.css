@@ -8,4 +8,6 @@
     src: url("assests/fonts/SourceSansPro-BlackItalic.ttf");
     font-weight: 300;
 }
-
+body {
+    font-family: "AbyssinicaSIL-Regular", "SourceSanspro", sans-serif;
+}
