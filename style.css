@@ -9,5 +9,9 @@
     font-weight: 300;
 }
 body {
-    font-family: "AbyssinicaSIL-Regular", "SourceSanspro", sans-serif;
+    font-family: "AbyssinicaSIL-Regular", "SourceSanspro";
 }
+
+* {
+    box-sizing: border-box;
+  }
