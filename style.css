@@ -41,10 +41,18 @@ a {
     text-decoration: none;
     font-size: 14px;
 }
-
 a:hover {
     color: red;
 }
 html {
     scroll-behavior: smooth;
+}
+h1 {
+    font-size: 40px;
+    color: #374566;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+}
+header {
+    background-color: teal;
 }
