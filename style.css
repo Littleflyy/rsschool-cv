@@ -10,9 +10,13 @@
 }
 body {
     font-family: "AbyssinicaSIL-Regular", "SourceSanspro";
+    font-size: 18px;
+    line-height: 1.5;
+    color: #080909;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-image: url("assests/bcg.jpg");
 }
 
 * {
@@ -51,10 +55,10 @@ h1 {
     font-size: 40px;
     color: #374566;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-align: right;
+    text-align: left;
 }
 header {
-    background-color: teal;
+    background-image: url("assests/splash.jpg");
 }
 .main-container {
     display: flex;
@@ -68,3 +72,15 @@ header {
       width: 100%;
     }
   }
+.section-style {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #1f6929;
+}
+.round {
+    border-radius: 50%;
+    width: 20%;
+    float: left;
+}
