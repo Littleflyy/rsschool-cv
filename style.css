@@ -12,11 +12,11 @@ body {
     font-family: "AbyssinicaSIL-Regular", "SourceSanspro";
     font-size: 18px;
     line-height: 1.5;
-    color: #080909;
+    color: #949999;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url("assests/bcg.jpg");
+    background-color: #242730;
 }
 
 * {
@@ -53,12 +53,13 @@ html {
 }
 h1 {
     font-size: 40px;
-    color: #374566;
+    color: #515767;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
 }
 header {
-    background-image: url("assests/splash.jpg");
+    align-self: center;
+    
 }
 .main-container {
     display: flex;
@@ -81,6 +82,7 @@ header {
 }
 .round {
     border-radius: 50%;
-    width: 20%;
+    width: 37%;
     float: left;
+    object-fit: cover;
 }
