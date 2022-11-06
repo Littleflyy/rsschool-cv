@@ -26,6 +26,7 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    
 }
 
 .nav-list {
@@ -57,7 +58,8 @@ h1 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
 }
-header {
+.header {
+    border-bottom: 1px solid rgb(77, 133, 230);
     align-self: center;
     
 }
@@ -85,4 +87,5 @@ header {
     width: 37%;
     float: left;
     object-fit: cover;
+    border: 7px solid rgb(77, 133, 230);
 }
