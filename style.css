@@ -42,7 +42,7 @@ body {
     transition: .3s;
   }
 a {
-    color: black;
+    color: rgb(120, 117, 117);
     text-decoration: none;
     font-size: 14px;
 }
@@ -55,17 +55,26 @@ html {
 h1 {
     font-size: 40px;
     color: #515767;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
 }
 .header {
-    border-bottom: 1px solid rgb(77, 133, 230);
+    display: flex;
+    /*border-bottom: 1px solid rgb(77, 133, 230);*/
     align-self: center;
     
+}
+.main {
+    background-color: #191c25;
+    width: 70%;
+    align-self: center;
 }
 .main-container {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
 }
 .section {
     width: 50%;
@@ -84,8 +93,9 @@ h1 {
 }
 .round {
     border-radius: 50%;
-    width: 37%;
+    width: 20%;
     float: left;
     object-fit: cover;
-    border: 7px solid rgb(77, 133, 230);
+   /* border: 7px solid rgb(77, 133, 230);*/
 }
+
