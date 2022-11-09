@@ -14,7 +14,7 @@
 }
 }
 body {
-    font-family: "AbyssinicaSIL-Regular", "SourceSanspro";
+    font-family: "AbyssinicaSIL-Regular", "SourceSanspro", "SourceCodeRoboto";
     font-size: 18px;
     line-height: 1.5;
     color: #949999;
@@ -58,8 +58,19 @@ html {
 h1 {
     font-size: 40px;
     color: #cefafb;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "SourceCodeRoboto", sans-serif;
     text-align: center;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #4f2537;
+}
+h2 {
+    color: #cefafb;
+}
+.title-pro {
+    font-family: "SourceCodeRoboto", sans-serif;
+    text-align: center;
+    color: #cefafb;
+    font-size: 20px;
 }
 .header {
     display: flex;
@@ -92,18 +103,12 @@ h1 {
       width: 100%;
     }
   }
-.section-style {
-    font-size: 20px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    color: #1f6929;
-}
 .round {
+    border-radius: 50%;
     width: 65%;
 }
 #photo {
-    background: #4f2537;
+    background: #69535d;
 }
 #aboutme {
     background: #512639;
@@ -112,4 +117,8 @@ h1 {
     background: #512639;
 
 }
+#english {
+    color: aqua;
+}
+
 
