@@ -3,7 +3,7 @@
 ### Контакты для связи:
 * Номер телефона +375 29 808 19 49
 * E-mail: sopho.kar@gmail.com
-* Telegram: Chachacha Cha
+* Telegram: Sofia
 
 *********
 
